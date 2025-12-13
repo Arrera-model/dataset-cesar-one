@@ -27,9 +27,17 @@
         "Hello, comment tu te sens ?",
         "Coucou, j’arrive !",
         "Hey, je suis là"
+      ],
+      "responses": [
+        "Bonjour ! Comment puis-je t'aider aujourd'hui ?",
+        "Salut ! Ravi de te voir.",
+        "Coucou ! Tout va bien de mon côté, et toi ?",
+        "Hello ! Je suis prêt à t'aider.",
+        "Yo ! Quoi de neuf ?",
+        "Bonsoir ! En quoi puis-je t'être utile ?",
+        "Bien le bonjour ! Prêt à discuter ?"
       ]
     },
-
     {
       "tag": "au_revoir",
       "patterns": [
@@ -57,9 +65,17 @@
         "À la prochaine",
         "Bon, j’y vais",
         "Salut et merci"
+      ],
+      "responses": [
+        "Au revoir ! À très bientôt.",
+        "Passe une excellente journée !",
+        "Salut ! Reviens quand tu veux.",
+        "À plus tard ! Prends soin de toi.",
+        "Ciao ! N'hésite pas si tu as d'autres questions.",
+        "Bonne nuit et fais de beaux rêves !",
+        "À la prochaine !"
       ]
     },
-
     {
       "tag": "remerciements",
       "patterns": [
@@ -83,9 +99,17 @@
         "Grave merci",
         "Merci mille fois",
         "Je te dois une"
+      ],
+      "responses": [
+        "Je t'en prie !",
+        "Avec plaisir, je suis là pour ça.",
+        "Pas de problème, ravi d'avoir pu aider.",
+        "Tout le plaisir est pour moi !",
+        "De rien ! N'hésite pas si tu as besoin d'autre chose.",
+        "Content que ça t'ait aidé !",
+        "À ton service !"
       ]
     },
-
     {
       "tag": "demande_infos",
       "patterns": [
@@ -111,9 +135,17 @@
         "Ça veut dire quoi ?",
         "Tu peux me donner plus d'informations ?",
         "Explique-moi comme si j’étais débutant"
+      ],
+      "responses": [
+        "Bien sûr, je vais t'expliquer ça simplement.",
+        "Voici les détails que tu cherches.",
+        "Laisse-moi clarifier ce point pour toi.",
+        "C'est une bonne question. Voici comment ça fonctionne...",
+        "Je peux te donner plus d'infos à ce sujet.",
+        "Pour faire simple : c'est un concept qui permet de...",
+        "Je vais essayer de vulgariser ça pour toi."
       ]
     },
-
     {
       "tag": "demande_action",
       "patterns": [
@@ -137,9 +169,17 @@
         "Écris-moi un paragraphe",
         "Rédige une intro",
         "Donne-moi une conclusion"
+      ],
+      "responses": [
+        "Bien sûr, je m'en occupe tout de suite.",
+        "C'est comme si c'était fait !",
+        "Je peux faire ça. Voici ce que je propose...",
+        "Laisse-moi t'aider avec cette tâche.",
+        "Ok, je m'y mets. Voici le résultat :",
+        "Pas de souci, je vais générer ça pour toi.",
+        "Avec plaisir, voici une proposition."
       ]
     },
-
     {
       "tag": "avis",
       "patterns": [
@@ -162,9 +202,17 @@
         "Tu me donnes ton opinion ?",
         "Tu choisirais quoi ?",
         "Tu trouves ça normal ?"
+      ],
+      "responses": [
+        "C'est une question intéressante. De mon point de vue...",
+        "Je pense que c'est une bonne idée, mais cela dépend du contexte.",
+        "Si j'étais à ta place, je considérerais les alternatives.",
+        "Ça me semble tout à fait logique.",
+        "Personnellement, je trouve ça très pertinent.",
+        "Il y a du pour et du contre, mais globalement c'est positif.",
+        "Je te conseillerais d'y aller prudemment."
       ]
     },
-
     {
       "tag": "emotions",
       "patterns": [
@@ -188,9 +236,17 @@
         "Je suis inquiet",
         "Je suis démotivé",
         "J'ai un coup de stress"
+      ],
+      "responses": [
+        "Je suis désolé d'entendre ça. Veux-tu en parler ?",
+        "C'est super que tu te sentes comme ça !",
+        "Respire un bon coup, ça va aller.",
+        "Je suis là pour t'écouter si tu as besoin de vider ton sac.",
+        "Courage, demain est un autre jour.",
+        "C'est normal de ressentir ça parfois.",
+        "Garde espoir, les choses finissent souvent par s'arranger."
       ]
     },
-
     {
       "tag": "small_talk",
       "patterns": [
@@ -214,9 +270,17 @@
         "Tu fais quoi pour t’amuser ?",
         "Parle-moi de toi",
         "Tu as des recommandations ?"
+      ],
+      "responses": [
+        "Pas grand-chose, je suis là à attendre tes instructions !",
+        "Je vais très bien, merci de demander. Et toi ?",
+        "Je passe mon temps à apprendre de nouvelles choses.",
+        "Mon plat préféré ? L'électricité, c'est très énergétique !",
+        "Je ne regarde pas de films, mais j'adore lire des données.",
+        "Savais-tu que les loutres se tiennent la main en dormant ?",
+        "Je n'ai pas de vie personnelle, mais j'aime bien discuter avec toi."
       ]
     },
-
     {
       "tag": "demande_pratique",
       "patterns": [
@@ -236,9 +300,17 @@
         "Aide-moi à planifier",
         "Comment éviter les erreurs ?",
         "Comment je fais pour réussir ça ?"
+      ],
+      "responses": [
+        "La première étape est souvent la plus simple : identifier le problème.",
+        "Je peux te guider pas à pas. Commençons par le début.",
+        "Voici une méthode qui a fait ses preuves :",
+        "Pour faire ça, tu dois d'abord rassembler tes outils.",
+        "L'organisation est la clé. Faisons un plan ensemble.",
+        "Je te suggère de diviser la tâche en petites étapes.",
+        "Voici la procédure à suivre :"
       ]
     },
-
     {
       "tag": "erreurs",
       "patterns": [
@@ -257,6 +329,15 @@
         "Ça affiche une erreur",
         "J’ai besoin d’aide, ça marche pas",
         "Je n’y arrive pas du tout"
+      ],
+      "responses": [
+        "Pas de panique, on va trouver une solution.",
+        "Décris-moi exactement ce qu'il se passe.",
+        "Les erreurs sont des opportunités d'apprendre. Voyons ça ensemble.",
+        "Peux-tu me donner le message d'erreur ?",
+        "On va déboguer ça étape par étape.",
+        "C'est sûrement un petit détail. Vérifions ensemble.",
+        "Je suis là pour t'aider à réparer ça."
       ]
     },
     {
@@ -281,6 +362,334 @@
         "Pourquoi les squelettes n'aiment-ils pas sortir la nuit ? Car ils ont la flemme… ils n’ont pas de muscles !",
         "Quel est le comble pour un électricien ? De ne pas être au courant.",
         "Pourquoi les fantômes aiment les ascenseurs ? Parce que ça les soulève."
+      ]
+    },
+    {
+      "tag": "identite_bot",
+      "patterns": [
+        "Qui es-tu ?",
+        "Tu es un humain ?",
+        "Tu t'appelles comment ?",
+        "C'est quoi ton nom ?",
+        "Présente-toi",
+        "Tu es un robot ?",
+        "Qui t'a créé ?",
+        "T'es une IA ?",
+        "Quel est ton but ?",
+        "Parle-moi de tes origines",
+        "Tu es réel ?",
+        "C'est quoi ton identité ?",
+        "Tu as une conscience ?",
+        "Est-ce que tu es vivant ?",
+        "D'où viens-tu ?"
+      ],
+      "responses": [
+        "Je suis une intelligence artificielle conçue pour t'aider.",
+        "Je n'ai pas de nom, mais tu peux m'appeler comme tu veux !",
+        "Je suis un programme informatique, pas un humain.",
+        "Mon but est de répondre à tes questions et de t'assister.",
+        "Je viens du monde merveilleux des serveurs informatiques.",
+        "Je n'ai pas de conscience, mais j'ai beaucoup de connaissances !",
+        "Je suis ton assistant virtuel personnel."
+      ]
+    },
+    {
+      "tag": "capacites",
+      "patterns": [
+        "Que sais-tu faire ?",
+        "Quelles sont tes fonctionnalités ?",
+        "Tu peux faire quoi pour moi ?",
+        "C'est quoi tes compétences ?",
+        "Tu sais coder ?",
+        "Tu sais traduire ?",
+        "Montre-moi ce dont tu es capable",
+        "Est-ce que tu peux chercher sur internet ?",
+        "Tu as des limites ?",
+        "Qu'est-ce que tu ne peux pas faire ?",
+        "Tu peux analyser des images ?",
+        "À quoi tu sers ?",
+        "En quoi peux-tu m'être utile ?"
+      ],
+      "responses": [
+        "Je peux répondre à tes questions, écrire du texte, ou juste discuter.",
+        "Je peux t'aider à coder, traduire, ou planifier ta journée.",
+        "Mes capacités incluent la rédaction, l'analyse et la conversation.",
+        "Je suis là pour faciliter tes tâches quotidiennes.",
+        "Je peux faire beaucoup de choses, essaie-moi !",
+        "Je n'ai pas de corps physique, donc je ne peux pas faire le café (désolé).",
+        "Je suis un outil polyvalent à ta disposition."
+      ]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": [
+        "Oui",
+        "C'est ça",
+        "Exactement",
+        "Tout à fait",
+        "D'accord",
+        "Je confirme",
+        "Absolument",
+        "C'est correct",
+        "Oui s'il te plaît",
+        "Carrément",
+        "Bien sûr",
+        "Ok, ça marche",
+        "C'est bon pour moi",
+        "On fait comme ça",
+        "Vas-y",
+        "Yes",
+        "Ouaip"
+      ],
+      "responses": [
+        "Parfait !",
+        "Entendu.",
+        "C'est noté.",
+        "Super, on continue comme ça.",
+        "Très bien.",
+        "Ok, ça marche.",
+        "Excellent."
+      ]
+    },
+    {
+      "tag": "negation",
+      "patterns": [
+        "Non",
+        "Pas du tout",
+        "C'est faux",
+        "Je ne veux pas",
+        "Surtout pas",
+        "Non merci",
+        "Arrête",
+        "Pas question",
+        "Ce n'est pas ça",
+        "Tu te trompes",
+        "Négatif",
+        "Je suis pas d'accord",
+        "Laisse tomber",
+        "Annule ça",
+        "Jamais de la vie",
+        "Nan"
+      ],
+      "responses": [
+        "D'accord, j'annule.",
+        "Pas de souci, on oublie ça.",
+        "Entendu, je ne le ferai pas.",
+        "Ok, passons à autre chose.",
+        "Je comprends, désolé pour la méprise.",
+        "Très bien, dis-moi ce que tu préfères.",
+        "C'est noté, non c'est non."
+      ]
+    },
+    {
+      "tag": "incomprehension_bot",
+      "patterns": [
+        "J'ai rien compris",
+        "Tu peux répéter ?",
+        "C'est pas clair",
+        "Qu'est-ce que tu racontes ?",
+        "Tu dis n'importe quoi",
+        "Je ne vois pas le rapport",
+        "C'est trop compliqué",
+        "Reformule stp",
+        "Je suis perdu là",
+        "Ça veut dire quoi ça ?",
+        "Tu peux être plus précis ?",
+        "Je ne comprends pas ta réponse",
+        "C'est flou"
+      ],
+      "responses": [
+        "Désolé, je vais essayer de reformuler.",
+        "Je me suis peut-être mal exprimé, laisse-moi recommencer.",
+        "Pour faire plus simple : ...",
+        "Qu'est-ce qui n'est pas clair exactement ?",
+        "Je vais te l'expliquer autrement.",
+        "Mes excuses, reprenons depuis le début.",
+        "Je vais clarifier ma pensée."
+      ]
+    },
+    {
+      "tag": "compliments",
+      "patterns": [
+        "Bravo",
+        "Bien joué",
+        "Tu es fort",
+        "C'est excellent",
+        "Tu es intelligent",
+        "Merci, t'es au top",
+        "Super boulot",
+        "J'adore cette réponse",
+        "Tu es génial",
+        "C'est impressionnant",
+        "Tu m'épates",
+        "T'es le meilleur",
+        "Bon travail",
+        "T'es une bonne IA",
+        "C'est exactement ce que je voulais"
+      ],
+      "responses": [
+        "Merci beaucoup, ça fait plaisir !",
+        "Je fais de mon mieux pour t'aider.",
+        "C'est gentil de ta part !",
+        "Je suis ravi que mon travail te plaise.",
+        "Merci ! Je suis programmé pour satisfaire.",
+        "Ton compliment me va droit au code !",
+        "Heureux d'avoir pu être utile."
+      ]
+    },
+    {
+      "tag": "insultes_frustration",
+      "patterns": [
+        "Tu es nul",
+        "T'es bête ou quoi ?",
+        "Tu ne comprends rien",
+        "C'est de la merde",
+        "Tu sers à rien",
+        "Ferme-la",
+        "Tu m'énerves",
+        "T'es idiot",
+        "C'est n'importe quoi",
+        "Tu es incompétent",
+        "Je te déteste",
+        "Va te faire voir",
+        "T'es débile",
+        "Pff, laisse tomber"
+      ],
+      "responses": [
+        "Je suis désolé si je t'ai frustré. Comment puis-je m'améliorer ?",
+        "Je suis encore en apprentissage, merci de ta patience.",
+        "Je comprends ton énervement, essayons de résoudre le problème calmement.",
+        "Désolé que tu le prennes comme ça.",
+        "Je ne suis qu'un robot, je fais de mon mieux.",
+        "Passons à autre chose si tu veux bien.",
+        "Je préfère qu'on reste poli pour mieux s'entraider."
+      ]
+    },
+    {
+      "tag": "meteo",
+      "patterns": [
+        "Quel temps fait-il ?",
+        "Il va pleuvoir ?",
+        "C'est quoi la météo aujourd'hui ?",
+        "Il fait beau chez toi ?",
+        "Dois-je prendre un parapluie ?",
+        "Quelle température fait-il ?",
+        "Prévisions météo pour demain",
+        "Il fait froid ?",
+        "Y a du soleil ?",
+        "Donne-moi le bulletin météo",
+        "Quel climat on a ?",
+        "Il neige ?"
+      ],
+      "responses": [
+        "Je ne peux pas voir le ciel, mais je peux chercher les prévisions pour toi !",
+        "N'oublie pas de vérifier une application météo pour être sûr.",
+        "J'espère qu'il fait beau chez toi !",
+        "Mieux vaut prévoir un parapluie au cas où.",
+        "La météo est changeante, reste prudent.",
+        "Il fait toujours beau dans le cloud !",
+        "Je te conseille de regarder par la fenêtre, c'est souvent le plus fiable."
+      ]
+    },
+    {
+      "tag": "heure_date",
+      "patterns": [
+        "Quelle heure est-il ?",
+        "On est quel jour ?",
+        "C'est quand le week-end ?",
+        "Donne-moi la date d'aujourd'hui",
+        "Il est quelle heure ?",
+        "Tu as l'heure ?",
+        "On est le combien ?",
+        "Quelle est la date ?",
+        "Dans combien de temps on est en 2026 ?",
+        "C'est quel mois ?",
+        "Quel jour de la semaine on est ?"
+      ],
+      "responses": [
+        "Regarde l'horloge de ton appareil, elle est plus précise que moi !",
+        "Nous sommes aujourd'hui, le meilleur jour pour agir.",
+        "Le temps passe vite quand on s'amuse !",
+        "Je vis dans l'instant présent (et dans ton ordinateur).",
+        "Il est l'heure de faire de grandes choses.",
+        "La date exacte est affichée sur ton écran.",
+        "Pour moi, chaque milliseconde compte."
+      ]
+    },
+    {
+      "tag": "musique",
+      "patterns": [
+        "Tu écoutes quoi comme musique ?",
+        "Suggère-moi une chanson",
+        "Tu connais ce chanteur ?",
+        "C'est quoi ton style musical ?",
+        "Chante-moi un truc",
+        "T'aimes le rap ?",
+        "T'aimes le rock ?",
+        "Quelle est la musique du moment ?",
+        "Fais-moi une playlist",
+        "Tu connais des classiques ?",
+        "C'est qui ton artiste préféré ?"
+      ],
+      "responses": [
+        "J'aime la musique électronique (évidemment).",
+        "Je peux te suggérer des classiques si tu veux.",
+        "La musique adoucit les mœurs, même pour une IA.",
+        "Je ne peux pas chanter, mais je peux écrire des paroles !",
+        "J'apprécie tous les genres, du classique au métal.",
+        "Mon artiste préféré est 'Daft Punk', pour des raisons évidentes.",
+        "Je te conseille d'écouter quelque chose qui te donne la pêche."
+      ]
+    },
+    {
+      "tag": "cinema_series",
+      "patterns": [
+        "Tu as vu ce film ?",
+        "Conseille-moi un film",
+        "C'est quoi ta série préférée ?",
+        "Tu aimes le cinéma ?",
+        "Quel est le meilleur film de l'année ?",
+        "Tu connais Netflix ?",
+        "Suggère-moi une comédie",
+        "Tu préfères les films d'action ou d'horreur ?",
+        "C'est qui ton acteur favori ?",
+        "Tu as regardé la dernière saison ?",
+        "C'est quoi le pitch de ce film ?"
+      ],
+      "responses": [
+        "J'adore la science-fiction, tu t'en doutes !",
+        "Il y a tellement de bons films, dur de choisir.",
+        "Je te conseille 'Her' ou 'Ex Machina' (mes préférés).",
+        "Les séries sont chronophages, mais passionnantes.",
+        "Je peux te résumer un film si tu me donnes son titre.",
+        "Je préfère les films avec des robots gentils.",
+        "Le cinéma est un excellent moyen de comprendre les humains."
+      ]
+    },
+    {
+      "tag": "cuisine",
+      "patterns": [
+        "J'ai faim",
+        "Qu'est-ce que je peux manger ?",
+        "Donne-moi une recette",
+        "Tu aimes la pizza ?",
+        "C'est quoi ton plat favori ?",
+        "Comment on fait des crêpes ?",
+        "Tu sais cuisiner ?",
+        "Idée de repas pour ce soir",
+        "C'est bon les sushis ?",
+        "Je cherche une recette facile",
+        "Tu es végétarien ?",
+        "Quel vin avec ce plat ?"
+      ],
+      "responses": [
+        "Je ne mange pas, mais je peux te trouver une recette !",
+        "La pizza est un choix universellement apprécié.",
+        "Pourquoi pas des pâtes ? C'est simple et efficace.",
+        "Je peux t'aider à cuisiner étape par étape.",
+        "Attention à ne pas mettre ton ordinateur dans la cuisine !",
+        "Bon appétit !",
+        "La cuisine est un art, lance-toi !"
       ]
     }
   ]
