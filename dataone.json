@@ -1,0 +1,263 @@
+{
+  "intents": [
+    {
+      "tag": "salutations",
+      "patterns": [
+        "Salut",
+        "Bonjour",
+        "Coucou",
+        "Hey",
+        "Yo",
+        "Salut toi",
+        "Bonsoir",
+        "Hello",
+        "Hey, ça va ?",
+        "Bonjour à toi",
+        "Salut, comment tu vas ?",
+        "Salut l’ami",
+        "Coucou, t’es là ?",
+        "Hey, tu peux m’aider ?",
+        "Salut, quoi de neuf ?",
+        "Bien le bonjour",
+        "Yooo",
+        "Bonjour bonjour",
+        "Salut, tout roule ?",
+        "Hey, t’es dispo ?",
+        "Bonsoir, tu es réveillé ?",
+        "Hello, comment tu te sens ?",
+        "Coucou, j’arrive !",
+        "Hey, je suis là"
+      ]
+    },
+
+    {
+      "tag": "au_revoir",
+      "patterns": [
+        "Au revoir",
+        "À plus",
+        "A plus tard",
+        "Bonne journée",
+        "Bonne soirée",
+        "À bientôt",
+        "Ciao",
+        "Je me casse, à plus",
+        "On se reparle après",
+        "Je dois y aller",
+        "Merci, à bientôt",
+        "On se dit à plus tard",
+        "OK, salut",
+        "Bye",
+        "À demain",
+        "On se retrouve plus tard",
+        "Je déconnecte, à plus",
+        "Je file",
+        "Bonne nuit",
+        "Bonne continuation",
+        "On se reparle demain",
+        "À la prochaine",
+        "Bon, j’y vais",
+        "Salut et merci"
+      ]
+    },
+
+    {
+      "tag": "remerciements",
+      "patterns": [
+        "Merci",
+        "Merci beaucoup",
+        "Merci pour ton aide",
+        "Un grand merci",
+        "Merci infiniment",
+        "Je te remercie",
+        "Merci, tu gères",
+        "C’est super gentil",
+        "C’est sympa, merci",
+        "Merci encore",
+        "Merci, ça m’aide énormément",
+        "Merci, tu me sauves",
+        "Trop bien merci",
+        "Merci, c’est parfait",
+        "Je te suis reconnaissant",
+        "Merci pour tout",
+        "Merci du fond du cœur",
+        "Grave merci",
+        "Merci mille fois",
+        "Je te dois une"
+      ]
+    },
+
+    {
+      "tag": "demande_infos",
+      "patterns": [
+        "Peux-tu m'expliquer ceci ?",
+        "Comment ça marche ?",
+        "Tu peux m’en dire plus ?",
+        "J’ai besoin d’infos",
+        "Tu saurais m’expliquer ?",
+        "Explique-moi ça simplement",
+        "Je n’ai pas compris, tu peux réexpliquer ?",
+        "Tu peux préciser ?",
+        "C’est quoi exactement ?",
+        "Comment ça fonctionne au juste ?",
+        "Tu peux détailler ?",
+        "Je veux comprendre",
+        "Explique-moi en détail",
+        "J’ai pas tout saisi, aide-moi",
+        "C'est quoi la différence ?",
+        "Tu peux m’expliquer avec un exemple ?",
+        "Tu peux vulgariser ?",
+        "J’ai du mal à comprendre",
+        "Tu peux résumer ?",
+        "Ça veut dire quoi ?",
+        "Tu peux me donner plus d'informations ?",
+        "Explique-moi comme si j’étais débutant"
+      ]
+    },
+
+    {
+      "tag": "demande_action",
+      "patterns": [
+        "Peux-tu faire ça pour moi ?",
+        "Aide-moi à écrire ça",
+        "Corrige ce texte",
+        "Fais-moi un résumé",
+        "Tu peux générer un message ?",
+        "Tu peux traduire ça ?",
+        "Aide-moi à reformuler",
+        "Peux-tu structurer ce texte ?",
+        "Donne-moi une version plus courte",
+        "Fais-en une version plus longue",
+        "Peux-tu créer un dialogue ?",
+        "Fais une liste",
+        "Tu peux me donner un exemple ?",
+        "Génère une description",
+        "Aide-moi à imaginer un scénario",
+        "Tu peux m’aider à coder ça ?",
+        "Fais-moi un plan détaillé",
+        "Écris-moi un paragraphe",
+        "Rédige une intro",
+        "Donne-moi une conclusion"
+      ]
+    },
+
+    {
+      "tag": "avis",
+      "patterns": [
+        "Qu’en penses-tu ?",
+        "Tu trouves ça bien ?",
+        "C’est une bonne idée ?",
+        "C’est quoi ton avis ?",
+        "Tu peux me conseiller ?",
+        "Tu ferais quoi à ma place ?",
+        "Tu valides ?",
+        "Ça te semble logique ?",
+        "Tu penses que c’est utile ?",
+        "Tu trouves ça intéressant ?",
+        "C’est bien ou pas ?",
+        "C’est mieux comme ça ou pas ?",
+        "Selon toi, c’est correct ?",
+        "Tu me recommandes quoi ?",
+        "C’est risqué selon toi ?",
+        "C’est important tu penses ?",
+        "Tu me donnes ton opinion ?",
+        "Tu choisirais quoi ?",
+        "Tu trouves ça normal ?"
+      ]
+    },
+
+    {
+      "tag": "emotions",
+      "patterns": [
+        "Je suis stressé",
+        "Je suis triste",
+        "J’ai peur",
+        "Je suis content",
+        "Je suis énervé",
+        "Je me sens mal",
+        "Je suis fatigué",
+        "Ça me rend anxieux",
+        "Je ne me sens pas bien",
+        "Je suis super heureux",
+        "Je ne sais plus quoi faire",
+        "Je suis perdu",
+        "J'ai l’impression de tout rater",
+        "Je me sens débordé",
+        "Je me sens seul",
+        "Je me sens mieux aujourd’hui",
+        "Je suis frustré",
+        "Je suis inquiet",
+        "Je suis démotivé",
+        "J'ai un coup de stress"
+      ]
+    },
+
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "Quoi de neuf ?",
+        "Tu vas bien ?",
+        "Tu fais quoi aujourd’hui ?",
+        "Raconte-moi un truc",
+        "Tu peux me faire rire ?",
+        "C’est quoi ton film préféré ?",
+        "Tu joues à des jeux ?",
+        "Tu fais quoi dans la vie ?",
+        "T’aimes quoi comme musique ?",
+        "Raconte-moi une anecdote",
+        "Tu as des passions ?",
+        "C’est quoi ton plat préféré ?",
+        "Tu lis quoi en ce moment ?",
+        "Tu peux me dire une blague ?",
+        "Tu connais une fun fact ?",
+        "T’aimes les animaux ?",
+        "Tu viens d’où ?",
+        "Tu fais quoi pour t’amuser ?",
+        "Parle-moi de toi",
+        "Tu as des recommandations ?"
+      ]
+    },
+
+    {
+      "tag": "demande_pratique",
+      "patterns": [
+        "Comment faire ça ?",
+        "Peux-tu me montrer comment faire ?",
+        "C’est quoi les étapes ?",
+        "Par quoi je commence ?",
+        "Aide-moi à m’organiser",
+        "Comment résoudre ce problème ?",
+        "C’est quoi la première chose à faire ?",
+        "Tu peux me guider ?",
+        "Explique-moi la procédure",
+        "Comment je peux améliorer ça ?",
+        "Donne-moi une méthode",
+        "Tu peux me dire quoi faire ?",
+        "C’est quoi la meilleure solution ?",
+        "Aide-moi à planifier",
+        "Comment éviter les erreurs ?",
+        "Comment je fais pour réussir ça ?"
+      ]
+    },
+
+    {
+      "tag": "erreurs",
+      "patterns": [
+        "Ça ne marche pas",
+        "J’ai fait une erreur",
+        "Il y a un problème",
+        "Ça bug",
+        "J’ai tout cassé",
+        "Ça fonctionne pas",
+        "Je comprends pas ce qui va pas",
+        "J’ai un souci",
+        "Je n’arrive pas à faire ça",
+        "Je crois que j’ai raté",
+        "Je suis bloqué",
+        "Il y a un truc qui cloche",
+        "Ça affiche une erreur",
+        "J’ai besoin d’aide, ça marche pas",
+        "Je n’y arrive pas du tout"
+      ]
+    }
+  ]
+}
