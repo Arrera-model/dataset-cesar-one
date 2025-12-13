@@ -258,6 +258,30 @@
         "J’ai besoin d’aide, ça marche pas",
         "Je n’y arrive pas du tout"
       ]
+    },
+    {
+      "tag": "blagues_fr",
+      "patterns": [
+        "Raconte-moi une blague",
+        "Balance une blague",
+        "Tu peux me faire rire ?",
+        "Dis-moi quelque chose de drôle",
+        "Je veux une blague",
+        "Fais-moi rire",
+        "Une autre blague",
+        "Encore une blague",
+        "Donne-moi une blague courte",
+        "As-tu une blague marrante ?"
+      ],
+      "responses": [
+        "Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ? Parce que sinon ils tombent dans le bateau !",
+        "Quelle est la mamie préférée des plongeurs ? Mamie Thalassique.",
+        "Pourquoi les mathématiciens détestent-ils la forêt ? Trop de racines.",
+        "Que dit une mère à son fils geek quand le dîner est prêt ? Alt Tab !",
+        "Pourquoi les squelettes n'aiment-ils pas sortir la nuit ? Car ils ont la flemme… ils n’ont pas de muscles !",
+        "Quel est le comble pour un électricien ? De ne pas être au courant.",
+        "Pourquoi les fantômes aiment les ascenseurs ? Parce que ça les soulève."
+      ]
     }
   ]
 }
